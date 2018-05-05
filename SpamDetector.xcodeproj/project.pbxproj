@@ -13,6 +13,9 @@
 		31196B45209D471700321A0E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31196B44209D471700321A0E /* MessagesViewController.swift */; };
 		31196B48209D471700321A0E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31196B46209D471700321A0E /* MainInterface.storyboard */; };
 		31196B4A209D471700321A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31196B49209D471700321A0E /* Assets.xcassets */; };
+		31A2C740209DADB100A5FE23 /* MessageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 31A2C73D209DADB100A5FE23 /* MessageClassifier.mlmodel */; };
+		31A2C741209DADB100A5FE23 /* SMSSpamCollection.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31A2C73E209DADB100A5FE23 /* SMSSpamCollection.txt */; };
+		31A2C742209DADB100A5FE23 /* words_ordered.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31A2C73F209DADB100A5FE23 /* words_ordered.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		31196B47209D471700321A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		31196B49209D471700321A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31196B4B209D471700321A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A2C73D209DADB100A5FE23 /* MessageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MessageClassifier.mlmodel; sourceTree = "<group>"; };
+		31A2C73E209DADB100A5FE23 /* SMSSpamCollection.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SMSSpamCollection.txt; sourceTree = "<group>"; };
+		31A2C73F209DADB100A5FE23 /* words_ordered.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words_ordered.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 		31196B43209D471700321A0E /* SpamDetector MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				31A2C73D209DADB100A5FE23 /* MessageClassifier.mlmodel */,
+				31A2C73E209DADB100A5FE23 /* SMSSpamCollection.txt */,
+				31A2C73F209DADB100A5FE23 /* words_ordered.txt */,
 				31196B44209D471700321A0E /* MessagesViewController.swift */,
 				31196B46209D471700321A0E /* MainInterface.storyboard */,
 				31196B49209D471700321A0E /* Assets.xcassets */,
@@ -198,6 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31196B4A209D471700321A0E /* Assets.xcassets in Resources */,
+				31A2C741209DADB100A5FE23 /* SMSSpamCollection.txt in Resources */,
+				31A2C742209DADB100A5FE23 /* words_ordered.txt in Resources */,
 				31196B48209D471700321A0E /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31196B45209D471700321A0E /* MessagesViewController.swift in Sources */,
+				31A2C740209DADB100A5FE23 /* MessageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
